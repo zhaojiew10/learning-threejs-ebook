@@ -41,4 +41,3 @@ python3 -m venv .venv
 
 - [原始 PDF 获取页面（Packt 官方，按出版方条件领取）](https://packt.link/free-ebook/9781784392215)。
 - [第四版官方示例代码](https://github.com/PacktPublishing/Learn-Three.js-Fourth-edition)，供需要了解新版实现的读者查阅。
-- 站点组织方式参考：[cuda-ebook](https://github.com/zhaojiew10/cuda-ebook)。
