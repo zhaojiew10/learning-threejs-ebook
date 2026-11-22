@@ -1,5 +1,7 @@
 # Threejs编程指南
 
+**在线阅读**：<https://zhaojiew10.github.io/learning-threejs-ebook>
+
 ## 内容说明
 
 - [第 1 章 · 使用 Three.js 创建你的第一个 3D 场景](docs/chapters-zh/ch01.md)
