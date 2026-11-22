@@ -1,0 +1,15 @@
+.venv/
+site/
+build/
+tools/
+fourth-edition-code/
+docs/chapters/
+demo.html
+*.pdf
+__pycache__/
+*.py[cod]
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+reference-readme.md

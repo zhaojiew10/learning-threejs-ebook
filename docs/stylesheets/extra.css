@@ -1,0 +1,60 @@
+:root {
+  --md-primary-fg-color: #263238;
+  --md-accent-fg-color: #00a68a;
+}
+
+.md-typeset .pdf-page-marker {
+  margin: 2.5rem 0 1rem;
+  padding-top: .75rem;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  color: var(--md-default-fg-color--light);
+  font-size: .7rem;
+}
+
+.md-typeset .source-note {
+  padding: .8rem 1rem;
+  border-left: .2rem solid var(--md-accent-fg-color);
+  background: var(--md-code-bg-color);
+}
+
+.md-typeset img {
+  height: auto;
+}
+
+.md-typeset pre {
+  tab-size: 2;
+}
+
+.md-typeset pre > code {
+  white-space: pre;
+}
+
+.md-typeset .pdf-page-marker {
+  scroll-margin-top: 4rem;
+}
+
+.md-typeset .long-code {
+  max-height: 36rem;
+}
+
+@media print {
+  .md-header,
+  .md-sidebar,
+  .md-footer,
+  .md-nav,
+  .md-content__button {
+    display: none !important;
+  }
+
+  .md-main__inner {
+    margin: 0;
+  }
+
+  .md-content {
+    max-width: none;
+  }
+
+  .pdf-page-marker {
+    break-after: avoid;
+  }
+}

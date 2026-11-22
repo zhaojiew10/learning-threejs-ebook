@@ -1,0 +1,76 @@
+site_name: Threejs编程指南
+site_description: Learning Three.js 第二版中文内容
+site_author: Jos Dirksen（原著）
+site_url: https://zhaojiew10.github.io/learning-threejs-ebook/
+repo_url: https://github.com/zhaojiew10/learning-threejs-ebook
+docs_dir: docs
+site_dir: site
+
+theme:
+  name: material
+  language: zh
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.tracking
+    - navigation.indexes
+    - toc.follow
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+
+markdown_extensions:
+  - admonition
+  - tables
+  - def_list
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 第 1 章 · 使用 Three.js 创建你的第一个 3D 场景: chapters-zh/ch01.md
+  - 第 2 章 · 构成 Three.js 场景的基本组件: chapters-zh/ch02.md
+  - 第 3 章 · 使用 Three.js 中提供的各种光源: chapters-zh/ch03.md
+  - 第 4 章 · 使用 Three.js 材质: chapters-zh/ch04.md
+  - 第 5 章 · 学习使用几何体: chapters-zh/ch05.md
+  - 第 6 章 · 高级几何体与二元运算: chapters-zh/ch06.md
+  - 第 7 章 · 粒子、精灵和点云: chapters-zh/ch07.md
+  - 第 8 章 · 创建和加载高级网格与几何体: chapters-zh/ch08.md
+  - 第 9 章 · 动画与相机移动: chapters-zh/ch09.md
+  - 第 10 章 · 纹理的加载与使用: chapters-zh/ch10.md
+  - 第 11 章 · 自定义着色器与渲染后期处理: chapters-zh/ch11.md
+  - 第 12 章 · 为场景添加物理效果与声音: chapters-zh/ch12.md
+  - 术语表: terminology.md
+  - 关于本书: about.md
